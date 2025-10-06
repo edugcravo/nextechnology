@@ -13,7 +13,8 @@ declare var ScrollReveal: any;
 
 
 export class HomeComponent implements OnInit {
-  
+
+   currentYear: number = new Date().getFullYear();
   resposta1: any = false;
   resposta2: any = false;
   resposta3: any = false;
@@ -133,8 +134,8 @@ export class HomeComponent implements OnInit {
 
   redirecionarWhatsapp() {
     // preparar mensagem
-    const mensagem = `Olá, estou interessado em saber mais sobre os serviços da empresa.`;
+    const mensagem = `Olá! Vim do site da NexTech e quero saber mais sobre seus serviços.`;
     // redirecionar para o whatsapp
-    window.open(`https://wa.me/5541992213199?text=${mensagem}`, '_blank');
+    window.open(`https://wa.me/554187895670?text=${mensagem}`, '_blank');
   }
 }

@@ -708,6 +708,22 @@ input{
     display: flex;
     gap: 20px;
 }
+
+.insta{
+    background-color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 25px;
+        display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta img{
+       width: 15px;
+    height: 15px;
+}
 /* Media queries para textos responsivos */
 
 @media (max-width: 1780px) {
